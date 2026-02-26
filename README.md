@@ -68,13 +68,13 @@ CREATE DATABASE SchoolDB;
 
 USE SchoolDB;
 
-CREATE TABLE Students (
+CREATE TABLE People (
     Id INT PRIMARY KEY IDENTITY(1,1),
     Name NVARCHAR(100),
     Age INT
 );
 
-INSERT INTO Students (Name, Age)
-VALUES ('Ali', 22);
+INSERT INTO People (Name, Age)
+VALUES ('Ali', 25);
 
-SELECT * FROM Students;
+SELECT * FROM People;
