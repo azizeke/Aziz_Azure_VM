@@ -64,9 +64,9 @@ Inside SSMS:
 Example SQL Query:
 
 ```sql
-CREATE DATABASE SchoolDB;
+CREATE DATABASE AzizDB;
 
-USE SchoolDB;
+USE AzizDB;
 
 CREATE TABLE People (
     Id INT PRIMARY KEY IDENTITY(1,1),
